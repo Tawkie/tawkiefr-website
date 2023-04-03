@@ -19,7 +19,7 @@ team_text = "Nous sommes des étudiants-ingénieurs engagés dans l'associatif"
 alpha_title = "Rejoindre la Alpha"
 alpha_text = "Devenez utilisateur Tawkie et gagnez en productivité !"
 alpha_signup = "Inscriptions"
-alpha_button_url = "https://framaforms.org/inscription-pour-le-beta-testing-1679743352"
+alpha_button_url = "https://framaforms.org/inscription-pour-le-alpha-testing-1679743352"
 
 footer_links = "Liens"
 footer_legal = "Légal"
