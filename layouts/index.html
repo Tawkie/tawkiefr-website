@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ .Lang }}" prefix="og: https://ogp.me/ns#">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,7 +9,18 @@
     </title>
     <meta name="description" content="{{ i18n "meta_description" }}" />
     <meta name="keywords" content="{{ i18n "meta_keywords"}}" />
-    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+    <meta name="og:site_name" content="{{ i18n "meta_title" }}">
+    <meta name="og:description" content="{{ i18n "meta_description" }}">
+    <meta name="og:type" content="website">
+    <!-- <meta name="og:image" content="{{ .Site.BaseURL }}logo.png"> -->
+    <meta name="og:url" content="{{ .Page.Permalink }}">
+    <meta name="og:locale" content="{{ .Lang }}">
+    {{ range .Translations }}
+    <meta name="og:locale:alternate" content="{{ .Lang }}">
+    {{ end }}
+    <!-- <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/> -->
+    {{ $css := resources.Get "css/index.css" | resources.Fingerprint "md5" }}
+    <link rel="stylesheet" href="{{ $css.Permalink }}"/>
     <!--Replace with your tailwind.css once created-->
     <!-- <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" /> -->
     <!-- Define your gradient here - use online tools to find a gradient matching your branding-->
@@ -359,7 +370,7 @@
       <h3 class="my-4 text-3xl leading-tight px-6">
         {{ i18n "alpha_text" }}
       </h3>
-      <a href="https://framaforms.org/questionnaire-1675887236">
+      <a href="{{ i18n "alpha_button_url" }}">
         <button class="mx-auto lg:mx-0 bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
           {{ i18n "alpha_signup" }}
         </button>
