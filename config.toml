@@ -4,16 +4,19 @@ title = 'Tawkie'
 disableKinds = ['taxonomy', 'term']
 defaultContentLanguage = 'fr'
 
-[params]
+[[module.mounts]]
+  source = 'assets'
+  target = 'assets'
+
 
 
 [languages]
   [languages.fr]
     languageName = 'Français'
-    weight = 1
+    weight = 2
   [languages.en]
     languageName = 'English'
-    weight = 2
+    weight = 1
 
 
 
