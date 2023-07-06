@@ -96,7 +96,7 @@
       </div>
     </div>
     <!-- Section -->
-    <div class="my-32 min-h-screen space-y-28">
+    <div class="mt-32 min-h-screen space-y-28">
       <h2
         class="text-4xl md:text-5xl font-medium text-brand-yellow text-center mx-auto max-w-3xl"
       >
@@ -136,5 +136,38 @@
       </div>
     </div>
     <!-- Footer -->
+    <footer class="flex justify-center mt-64 mb-8">
+      <div class="flex sm:flex-row flex-col sm:justify-between w-full gap-16">
+        <!-- Logo -->
+        {{ partial "logo.html" }}
+
+        <!-- Links -->
+        <div class="grid sm:grid-cols-3 gap-8">
+          <div class="space-y-2">
+            <h4 class="text-xl font-medium text-brand-yellow block">Tawkie</h4>
+            <a href="#" class="text-gray-300 hover:text-white block">
+              Le projet
+            </a>
+            <a href="#" class="text-gray-300 hover:text-white block">
+              Notre équipe
+            </a>
+          </div>
+          <div class="space-y-2">
+            <h4 class="text-xl font-medium text-brand-yellow block">Légal</h4>
+            <a href="#" class="text-gray-300 hover:text-white block">Terms</a>
+            <a href="#" class="text-gray-300 hover:text-white block">Privacy</a>
+          </div>
+          <div class="space-y-2">
+            <h4 class="text-xl font-medium text-brand-yellow">Contact</h4>
+            <a
+              href="mailto:contact@tawkie.fr"
+              class="text-gray-300 hover:text-white block"
+            >
+              Nous contacter
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
