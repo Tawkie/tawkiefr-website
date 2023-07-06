@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Halo effect arround the phone */
+.shadow-phone {
+  /* filter: drop-shadow(0px 0px 250px 0px #761cae)
+    drop-shadow(0px 150px 0px #d67e63) drop-shadow(0px 100px 0px #f9c84c); */
+  filter: drop-shadow(0 0 30px #761cae) drop-shadow(0 0 40px #d67e63)
+    drop-shadow(0 0 50px #f9c84c);
+}
