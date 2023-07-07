@@ -69,7 +69,7 @@
             </a>
           </div>
           <p
-            class="text-gray-300 max-w-sm lg:max-w-none lg:text-left text-center lg:mx-0 mx-auto"
+            class="text-gray-100 max-w-sm lg:max-w-none lg:text-left text-center lg:mx-0 mx-auto"
           >
             {{ i18n "hero_small_text" . }}
           </p>
@@ -92,7 +92,7 @@
             <h3 class="text-brand-orange text-3xl">
               {{ i18n "section_1_1_title" . }}
             </h3>
-            <p class="mt-5 text-gray-300 text-xl">
+            <p class="mt-5 text-gray-100 text-xl">
               {{ i18n "section_1_1_text" . }}
             </p>
           </div>
@@ -108,7 +108,7 @@
             <h3 class="text-brand-orange text-3xl">
               {{ i18n "section_1_2_title" . }}
             </h3>
-            <p class="mt-5 text-gray-300 text-xl">
+            <p class="mt-5 text-gray-100 text-xl">
               {{ i18n "section_1_2_text" . }}
             </p>
           </div>
@@ -120,7 +120,7 @@
         <h2 class="text-4xl md:text-5xl font-medium text-brand-yellow text-center mx-auto max-w-3xl">
           {{ i18n "team_title" . }}
         </h2>
-        <p class="mt-5 text-gray-300 text-xl text-center max-w-6xl mx-auto">
+        <p class="mt-5 text-gray-100 text-xl text-center max-w-6xl mx-auto">
           {{ i18n "team_text" . }}
         </p>
         <div class="text-brand-purple-alt mt-20 flex justify-center">
@@ -129,14 +129,19 @@
       </div>
     </div>
     <!-- CTA -->
-    <div class="px-16 py-24 bg-brand-orange/75 text-center max-w-5xl mx-auto rounded-2xl">
-      <h2 class="text-5xl text-white font-semibold max-w-2xl mx-auto text-center">
+    <div class="px-16 py-24 mt-96 text-center max-w-5xl mx-auto rounded-2xl relative">
+      {{ with resources.Get "images/logo-v1.2-lourd.png" }}
+        {{ with .Resize "650x png q75" }}
+          <img src="{{ .Permalink }}" alt="Tawkie" class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[-1] opacity-40" />
+        {{ end }}
+      {{ end }}
+      <h2 class="text-xl sm:text-4xl text-white font-semibold sm:max-w-2xl sm:mx-auto text-center">
         {{ i18n "alpha_title" . }}
       </h2>
-      <p class="text-xl text-gray-300 max-w-xl mt-6 text-center mx-auto">
+      <p class="sm:text-xl text-gray-100 sm:max-w-xl mt-6 text-center font-medium sm:mx-auto">
         {{ i18n "alpha_text" . }}
       </p>
-      <a href={{ i18n "alpha_button_url" . }} target="_blank"  class="mt-10 inline-flex bg-white hover:bg-gray-200 transition-colors text-black px-4 py-3 rounded-md text-lg">
+      <a href={{ i18n "alpha_button_url" . }} target="_blank"  class="mt-4 sm:mt-10 inline-flex bg-white hover:bg-gray-200 transition-colors text-black px-4 py-3 rounded-md text-lg">
         {{ i18n "alpha_signup" . }}
       </a>
     </div>
