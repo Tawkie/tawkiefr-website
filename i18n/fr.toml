@@ -6,6 +6,13 @@ hero_title = "All-in-one messaging"
 hero_subtitle = "Tous vos messages réunis sur une application et bien plus encore"
 hero_button = "Découvrir Tawkie"
 hero_button_url = "https://framaforms.org/questionnaire-1675887236"
+hero_small_text = "Prévu sur Windows, MacOS, Linux, Android, IOS et navigateur"
+
+linkedin_message_1 = "Un mail aurait suffit au lieu de cette réunion interminable"
+linkedin_message_2 = "J'aurais pu manger mon croissant."
+twitter_message = "Je me suis fait ratio par un random se matin @_@^"
+messenger_message = "Bonnes vacances à tous. On se retrouve en septembre pour la rentré !"
+discord_message = "C'est à quelle heure l'escalade ?"
 
 section_1_title = "Une gestion efficace de toutes vos communications"
 section_1_1_title = "Naviguez facilement entre vos messages"
@@ -24,5 +31,7 @@ alpha_button_url = "https://framaforms.org/inscription-pour-le-alpha-testing-167
 
 footer_links = "Liens"
 footer_legal = "Légal"
+footer_terms = "Conditions d'utilisation"
+footer_privacy = "Politique de confidentialité"
 footer_contact = "Contact"
 footer_img_src = "Images provenant de : "

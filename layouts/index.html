@@ -27,13 +27,13 @@
     <!-- Nav -->
     <nav class="h-20 flex items-center justify-between bg-[#18181A]">
       {{ partial "logo.html" }}
-      <div class="space-x-8 hidden sm:block">
+      {{/*  <div class="space-x-8 hidden sm:block">
         <a href="#" class="text-xl text-gray-400 hover:text-white">Home</a>
         <a href="#" class="text-xl text-gray-400 hover:text-white">Le projet</a>
         <a href="#" class="text-xl text-gray-400 hover:text-white">
           Notre équipe
         </a>
-      </div>
+      </div>  */}}
     </nav>
     <!-- Hero -->
     <div
@@ -68,27 +68,28 @@
           <h1
             class="text-brand-yellow text-5xl md:text-7xl lg:text-7xl xl:text-9xl font-bold lg:text-left text-center"
           >
-            All-in-one messaging
+            {{ i18n "hero_title" . }}
           </h1>
           <p
             class="text-brand-orange text-2xl lg:text-3xl font-medium max-w-lg lg:max-w-none lg:text-left text-center lg:mx-0 mx-auto"
           >
-            Tous vos messages réunis sur une application et bien plus encore
+            {{ i18n "hero_subtitle" . }}
           </p>
         </div>
         <!-- Buttons -->
         <div class="space-x-6 lg:text-left text-center">
           <a
-            href="#"
+            href="{{ i18n "hero_button_url" . }}"
+            target="_blank"
             class="inline-flex bg-white hover:bg-gray-200 transition-colors text-black px-4 py-3 rounded-md text-lg"
           >
-            Découvrir Tawkie
+            {{ i18n "hero_button" . }}
           </a>
         </div>
         <p
           class="text-gray-300 max-w-sm lg:max-w-none lg:text-left text-center lg:mx-0 mx-auto"
         >
-          Prévu sur Windows, MacOS, Linux, Android, IOS et navigateur
+          {{ i18n "hero_small_text" . }}
         </p>
       </div>
       <div class="flex sm:w-full justify-center sm:scale-100 scale-[65%]">
@@ -100,16 +101,15 @@
       <h2
         class="text-4xl md:text-5xl font-medium text-brand-yellow text-center mx-auto max-w-3xl"
       >
-        Une gestion efficace de toutes vos communications
+        {{ i18n "section_1_title" . }}
       </h2>
       <div class="flex flex-col md:flex-row gap-24">
         <div class="w-full">
           <h3 class="text-brand-orange text-3xl">
-            Naviguez facilement entre vos messages
+            {{ i18n "section_1_1_title" . }}
           </h3>
           <p class="mt-5 text-gray-300 text-xl">
-            Oubliez les applications multiples, avec Tawkie vous pouvez accéder
-            à tous vos messages en un seul endroit
+            {{ i18n "section_1_1_text" . }}
           </p>
         </div>
         {{ $image := resources.Get "images/undraw_search_app_oso2.svg" }}
@@ -127,10 +127,11 @@
           class="w-full text-brand-purple-alt"
         />
         <div class="w-full">
-          <h3 class="text-brand-orange text-3xl">Gagnez en sérénité</h3>
+          <h3 class="text-brand-orange text-3xl">
+            {{ i18n "section_1_2_title" . }}
+          </h3>
           <p class="mt-5 text-gray-300 text-xl">
-            Restez concentré·e sur vos échanges en évitant les distractions
-            inutiles
+            {{ i18n "section_1_2_text" . }}
           </p>
         </div>
       </div>
@@ -144,26 +145,33 @@
         <!-- Links -->
         <div class="grid sm:grid-cols-3 gap-8">
           <div class="space-y-2">
-            <h4 class="text-xl font-medium text-brand-yellow block">Tawkie</h4>
-            <a href="#" class="text-gray-300 hover:text-white block">
-              Le projet
-            </a>
-            <a href="#" class="text-gray-300 hover:text-white block">
-              Notre équipe
+            <h4 class="text-xl font-medium text-brand-yellow block">
+              {{ i18n "footer_links" . }}
+            </h4>
+            <a href="{{ i18n "alpha_button_url" . }}" target="_blank" class="text-gray-300 hover:text-white block">
+              {{ i18n "alpha_signup" . }}
             </a>
           </div>
           <div class="space-y-2">
-            <h4 class="text-xl font-medium text-brand-yellow block">Légal</h4>
-            <a href="#" class="text-gray-300 hover:text-white block">Terms</a>
-            <a href="#" class="text-gray-300 hover:text-white block">Privacy</a>
+            <h4 class="text-xl font-medium text-brand-yellow block">
+              {{ i18n "footer_legal" . }}
+            </h4>
+            <a href="#" class="text-gray-300 hover:text-white block">
+              {{ i18n "footer_terms" . }}
+            </a>
+            <a href="#" class="text-gray-300 hover:text-white block">
+              {{ i18n "footer_privacy" . }}
+            </a>
           </div>
           <div class="space-y-2">
-            <h4 class="text-xl font-medium text-brand-yellow">Contact</h4>
+            <h4 class="text-xl font-medium text-brand-yellow">
+              {{ i18n "footer_contact" . }}
+            </h4>
             <a
               href="mailto:contact@tawkie.fr"
               class="text-gray-300 hover:text-white block"
             >
-              Nous contacter
+              contact@tawkie.fr
             </a>
           </div>
         </div>

@@ -6,6 +6,13 @@ hero_title = "All-in-one messaging"
 hero_subtitle = "All your messages in one place and so much more"
 hero_button = "Discover the project"
 hero_button_url = "https://framaforms.org/questionnaire-1675887236"
+hero_small_text = "Planned for Windows, MacOS, Linux, Android, IOS and browser"
+
+linkedin_message_1 = "This meeting could have been an email..."
+linkedin_message_2 = "I could have eaten my croissant !"
+twitter_message = "My tweet got ratioed this morning @_@^"
+messenger_message = "Enjoy your vacations and see you in September for the start of the new school year !"
+discord_message = "When are we rock climbing ?"
 
 section_1_title = "Finally a platform to efficiently manage all of your messages"
 section_1_1_title = "Quickly navigate all of your conversations"
@@ -23,5 +30,7 @@ alpha_button_url = "https://framaforms.org/inscription-pour-le-alpha-testing-167
 
 footer_links = "Links"
 footer_legal = "Legal"
+footer_terms = "Terms"
+footer_privacy = "Privacy"
 footer_contact = "Contact"
 footer_img_src = "Images from : "
