@@ -23,104 +23,126 @@
     <link rel="stylesheet" href="{{ $css.Permalink }}" />
   </head>
   <body
-    class="bg-[#18181A] container"
+    class="bg-[#18181A]"
     style="font-family: 'Source Sans Pro', sans-serif"
   >
     <!-- Nav -->
-    {{ partial "site-nav.html" . }}
+    <div class="container">
+      {{ partial "site-nav.html" . }}
+    </div>
     <!-- Hero -->
-    <div
-      class="flex items-center lg:flex-row flex-col py-20 space-y-8 sm:space-y-20"
-    >
-      <div class="space-y-10">
-        <!-- Text -->
-        <div class="space-y-5">
-          <!-- Pill -->
-          <div
-            class="flex w-fit mx-auto lg:mx-0 items-center gap-2 px-5 py-1 text-white bg-brand-purple-alt rounded-full"
-          >
-            <p class="text-sm lg:text-lg font-medium">
-              Suis la campagne sur Kickstarter
+    <div class="container">
+      <div
+        class="flex items-center lg:flex-row flex-col py-20 space-y-8 sm:space-y-20"
+      >
+        <div class="space-y-10">
+          <!-- Text -->
+          <div class="space-y-5">
+            <!-- Pill -->
+            <div
+              class="flex w-fit mx-auto lg:mx-0 items-center gap-2 px-5 py-1 text-white bg-brand-purple-alt rounded-full"
+            >
+              <p class="text-sm lg:text-lg font-medium">
+                Suis la campagne sur Kickstarter
+              </p>
+              {{ partial "svg/arrow-right.html" . }}
+            </div>
+            <h1
+              class="text-brand-yellow text-5xl md:text-7xl lg:text-7xl xl:text-9xl font-bold lg:text-left text-center"
+            >
+              {{ i18n "hero_title" . }}
+            </h1>
+            <p
+              class="text-brand-orange text-2xl lg:text-3xl font-medium max-w-lg lg:max-w-none lg:text-left text-center lg:mx-0 mx-auto"
+            >
+              {{ i18n "hero_subtitle" . }}
             </p>
-            {{ partial "svg/arrow-right.html" . }}
           </div>
-          <h1
-            class="text-brand-yellow text-5xl md:text-7xl lg:text-7xl xl:text-9xl font-bold lg:text-left text-center"
-          >
-            {{ i18n "hero_title" . }}
-          </h1>
+          <!-- Buttons -->
+          <div class="space-x-6 lg:text-left text-center">
+            <a
+              href="{{ i18n "hero_button_url" . }}"
+              target="_blank"
+              class="inline-flex bg-white hover:bg-gray-200 transition-colors text-black px-4 py-3 rounded-md text-lg"
+            >
+              {{ i18n "hero_button" . }}
+            </a>
+          </div>
           <p
-            class="text-brand-orange text-2xl lg:text-3xl font-medium max-w-lg lg:max-w-none lg:text-left text-center lg:mx-0 mx-auto"
+            class="text-gray-300 max-w-sm lg:max-w-none lg:text-left text-center lg:mx-0 mx-auto"
           >
-            {{ i18n "hero_subtitle" . }}
+            {{ i18n "hero_small_text" . }}
           </p>
         </div>
-        <!-- Buttons -->
-        <div class="space-x-6 lg:text-left text-center">
-          <a
-            href="{{ i18n "hero_button_url" . }}"
-            target="_blank"
-            class="inline-flex bg-white hover:bg-gray-200 transition-colors text-black px-4 py-3 rounded-md text-lg"
-          >
-            {{ i18n "hero_button" . }}
-          </a>
+        <div class="flex sm:w-full justify-center sm:scale-100 scale-[65%]">
+          {{ partial "phone.html" . }}
         </div>
-        <p
-          class="text-gray-300 max-w-sm lg:max-w-none lg:text-left text-center lg:mx-0 mx-auto"
-        >
-          {{ i18n "hero_small_text" . }}
-        </p>
-      </div>
-      <div class="flex sm:w-full justify-center sm:scale-100 scale-[65%]">
-        {{ partial "phone.html" . }}
       </div>
     </div>
     <!-- Section -->
-    <div class="mt-32 space-y-28">
-      <h2
-        class="text-4xl md:text-5xl font-medium text-brand-yellow text-center mx-auto max-w-3xl"
-      >
-        {{ i18n "section_1_title" . }}
-      </h2>
-      <div class="flex flex-col md:flex-row gap-24">
-        <div class="w-full">
-          <h3 class="text-brand-orange text-3xl">
-            {{ i18n "section_1_1_title" . }}
-          </h3>
-          <p class="mt-5 text-gray-300 text-xl">
-            {{ i18n "section_1_1_text" . }}
-          </p>
+    <div class="container">
+      <div class="mt-32 space-y-28">
+        <h2
+          class="text-4xl md:text-5xl font-medium text-brand-yellow text-center mx-auto max-w-3xl"
+        >
+          {{ i18n "section_1_title" . }}
+        </h2>
+        <div class="flex flex-col md:flex-row gap-24">
+          <div class="w-full">
+            <h3 class="text-brand-orange text-3xl">
+              {{ i18n "section_1_1_title" . }}
+            </h3>
+            <p class="mt-5 text-gray-300 text-xl">
+              {{ i18n "section_1_1_text" . }}
+            </p>
+          </div>
+          <div class="w-full text-brand-purple-alt">
+            {{ partial "svg/search_app.html" . }}
+          </div>
         </div>
-        <div class="w-full text-brand-purple-alt">
-          {{ partial "svg/search_app.html" . }}
-        </div>
-      </div>
-      <div class="flex flex-col-reverse md:flex-row gap-24 mt-24">
-        <div class="w-full text-brand-purple-alt">
-          {{ partial "svg/mindfulness.html" . }}
-        </div>
-        <div class="w-full">
-          <h3 class="text-brand-orange text-3xl">
-            {{ i18n "section_1_2_title" . }}
-          </h3>
-          <p class="mt-5 text-gray-300 text-xl">
-            {{ i18n "section_1_2_text" . }}
-          </p>
+        <div class="flex flex-col-reverse md:flex-row gap-24 mt-24">
+          <div class="w-full text-brand-purple-alt">
+            {{ partial "svg/mindfulness.html" . }}
+          </div>
+          <div class="w-full">
+            <h3 class="text-brand-orange text-3xl">
+              {{ i18n "section_1_2_title" . }}
+            </h3>
+            <p class="mt-5 text-gray-300 text-xl">
+              {{ i18n "section_1_2_text" . }}
+            </p>
+          </div>
         </div>
       </div>
     </div>
-    <div class="mt-32">
-      <h2 class="text-4xl md:text-5xl font-medium text-brand-yellow text-center mx-auto max-w-3xl">
-        {{ i18n "team_title" . }}
-      </h2>
-      <p class="mt-5 text-gray-300 text-xl text-center max-w-6xl mx-auto">
-        {{ i18n "team_text" . }}
-      </p>
-      <div class="text-brand-purple-alt mt-20 flex justify-center">
-        {{ partial "svg/team.html" . }}
+    <div class="container">
+      <div class="my-32">
+        <h2 class="text-4xl md:text-5xl font-medium text-brand-yellow text-center mx-auto max-w-3xl">
+          {{ i18n "team_title" . }}
+        </h2>
+        <p class="mt-5 text-gray-300 text-xl text-center max-w-6xl mx-auto">
+          {{ i18n "team_text" . }}
+        </p>
+        <div class="text-brand-purple-alt mt-20 flex justify-center">
+          {{ partial "svg/team.html" . }}
+        </div>
       </div>
+    </div>
+    <!-- CTA -->
+    <div class="px-16 py-24 bg-brand-orange/75 text-center max-w-5xl mx-auto rounded-2xl">
+      <h2 class="text-5xl text-white font-semibold max-w-2xl mx-auto text-center">
+        {{ i18n "alpha_title" . }}
+      </h2>
+      <p class="text-xl text-gray-300 max-w-xl mt-6 text-center mx-auto">
+        {{ i18n "alpha_text" . }}
+      </p>
+      <a href={{ i18n "alpha_button_url" . }} target="_blank"  class="mt-10 inline-flex bg-white hover:bg-gray-200 transition-colors text-black px-4 py-3 rounded-md text-lg">
+        {{ i18n "alpha_signup" . }}
+      </a>
     </div>
     <!-- Footer -->
-    {{ partial "site-footer.html" . }}
+    <div class="container">
+      {{ partial "site-footer.html" . }}
+    </div>
   </body>
 </html>
