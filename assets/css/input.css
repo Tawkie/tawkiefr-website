@@ -9,3 +9,12 @@
   filter: drop-shadow(0 0 30px #761cae) drop-shadow(0 0 40px #d67e63)
     drop-shadow(0 0 50px #f9c84c);
 }
+
+/* Markdown */
+article#markdown h2 {
+  @apply text-2xl font-semibold mt-6 mb-4 text-brand-orange/80;
+}
+
+article#markdown p {
+  @apply text-lg my-4 text-gray-300;
+}

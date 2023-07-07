@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>{{ i18n "meta_title" }}</title>
+    <meta name="description" content="{{ i18n "meta_description" }}" /> <meta
+    name="keywords" content="{{ i18n "meta_keywords"}}" /> <meta
+    name="og:site_name" content="{{ i18n "meta_title" }}"> <meta
+    name="og:description" content="{{ i18n "meta_description" }}">
+    <meta name="og:type" content="website" />
+    <!-- <meta name="og:image" content="{{ .Site.BaseURL }}logo.png"> -->
+    <meta name="og:url" content="{{ .Page.Permalink }}" />
+    <meta name="og:locale" content="{{ .Lang }}" />
+    {{ range .Translations }}
+    <meta name="og:locale:alternate" content="{{ .Lang }}" />
+    {{ end }}
+    <!-- <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/> -->
+    {{ $css := resources.Get "css/index.css" | resources.Fingerprint "md5" }}
+    <link rel="stylesheet" href="{{ $css.Permalink }}" />
+  </head>
+  <body
+    class="bg-[#18181A] container"
+    style="font-family: 'Source Sans Pro', sans-serif"
+  >
+    {{ partial "site-nav.html" . }}}
+    <article class="min-h-screen text-white max-w-6xl mx-auto" id="markdown">
+      <header class="my-8 sm:my-24">
+        <h1 class="text-4xl md:text-5xl text-center font-semibold text-brand-yellow">{{ .Title }}</h1>
+      </header>
+      <div>{{ .Content }}</div>
+    </article>
+
+    {{ partial "site-footer.html" . }}
+  </body>
+</html>
