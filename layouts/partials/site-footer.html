@@ -1,0 +1,40 @@
+<footer class="flex justify-center mt-64 mb-8">
+  <div class="flex sm:flex-row flex-col sm:justify-between w-full gap-16">
+    <!-- Logo -->
+    {{ partial "logo.html" }}
+
+    <!-- Links -->
+    <div class="grid sm:grid-cols-3 gap-8">
+      <div class="space-y-2">
+        <h4 class="text-xl font-medium text-brand-yellow block">
+          {{ i18n "footer_links" . }}
+        </h4>
+        <a href="{{ i18n "alpha_button_url" . }}" target="_blank" class="text-gray-300 hover:text-white block">
+          {{ i18n "alpha_signup" . }}
+        </a>
+      </div>
+      <div class="space-y-2">
+        <h4 class="text-xl font-medium text-brand-yellow block">
+          {{ i18n "footer_legal" . }}
+        </h4>
+        <a href="#" class="text-gray-300 hover:text-white block">
+          {{ i18n "footer_terms" . }}
+        </a>
+        <a href="#" class="text-gray-300 hover:text-white block">
+          {{ i18n "footer_privacy" . }}
+        </a>
+      </div>
+      <div class="space-y-2">
+        <h4 class="text-xl font-medium text-brand-yellow">
+          {{ i18n "footer_contact" . }}
+        </h4>
+        <a
+          href="mailto:contact@tawkie.fr"
+          class="text-gray-300 hover:text-white block"
+        >
+          contact@tawkie.fr
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
