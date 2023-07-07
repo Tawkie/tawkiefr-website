@@ -1,9 +1,14 @@
 <div class="flex items-end gap-2 select-none">
-  <img
-    src="https://picsum.photos/64"
-    alt="Profile Pic"
-    class="rounded-full h-8 w-8"
-  />
+  {{ with resources.Get "images/profile_pic_2.png" }}
+    {{ with .Resize "128x png q75" }}
+    <img
+      src="{{ .Permalink }}"
+      alt="Profile Pic"
+      class="rounded-full h-8 w-8"
+    />
+    {{ end }}
+  {{ end }}
+  
   <div class="bg-[#303338] px-3 py-2 rounded-xl rounded-bl-none">
     <p class="text-white max-w-[180px]">
       {{ i18n "twitter_message" . }}

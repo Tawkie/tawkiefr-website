@@ -2,11 +2,15 @@
   class="bg-[#2B2D31] rounded-2xl inline-flex p-3 items-center gap-3 select-none"
 >
   <!-- Profile Pic -->
-  <img
-    src="https://github.com/Shinyhero36.png"
-    class="h-8 w-8 rounded-full"
-    alt="Discord Profile Pic"
-  />
+  {{ with resources.Get "images/profile_pic_1.png" }}
+    {{ with .Resize "128x png q75" }}
+      <img
+        src="{{ .Permalink }}"
+        class="h-8 w-8 rounded-full"
+        alt="Discord Profile Pic"
+      />
+    {{ end }}
+  {{ end }}
   <div>
     <p class="text-brand-orange font-semibold text-lg">Surprised User</p>
     <p class="text-white">{{ i18n "discord_message" . }}</p>

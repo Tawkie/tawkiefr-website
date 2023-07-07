@@ -1,11 +1,15 @@
 <div
   class="bg-white rounded-lg border border-gray-400 inline-flex p-2 gap-2 select-none"
 >
-  <img
-    src="https://static.wikia.nocookie.net/33b59418-5a0a-49aa-94ee-8f54e198a18c"
-    alt="Profile Pic"
-    class="w-10 h-10 rounded-full"
-  />
+  {{ with resources.Get "images/profile_pic_3.png" }}
+    {{ with .Resize "128x png q75" }}
+    <img
+      src="{{ .Permalink }}"
+      alt="Profile Pic"
+      class="w-10 h-10 rounded-full"
+    />
+    {{ end }}
+  {{ end }}
   <div class="space-y-1">
     <p class="font-medium text-gray-500">
       <span class="text-black">Jean Baguette de Croissant</span>・16h24
