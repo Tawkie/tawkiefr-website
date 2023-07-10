@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>{{ i18n "meta_title" }}</title>
-    <meta name="description" content="{{ i18n "meta_description" }}" /> <meta
+    <title>{{ .Title }}</title>
+    <meta name="description" content="{{ .Description }}" /> <meta
     name="keywords" content="{{ i18n "meta_keywords"}}" /> <meta
-    name="og:site_name" content="{{ i18n "meta_title" }}"> <meta
-    name="og:description" content="{{ i18n "meta_description" }}">
+    name="og:site_name" content="{{ .Title }}"> <meta
+    name="og:description" content="{{ .Description }}">
     <meta name="og:type" content="website" />
     <!-- <meta name="og:image" content="{{ .Site.BaseURL }}logo.png"> -->
     <meta name="og:url" content="{{ .Page.Permalink }}" />
