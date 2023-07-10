@@ -6,5 +6,6 @@
     {{ else }}
     <a href="/{{ .Lang }}/faq" class="text-xl text-gray-400 hover:text-white">FAQ</a>
     {{ end }}
+    {{ partial "i18nlist.html" . }}
   </div>
 </nav>
