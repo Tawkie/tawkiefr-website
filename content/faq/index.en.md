@@ -1,7 +1,9 @@
 ---
-title: "Frequency asked questions"
-description: "Frequency asked questions about Tawkie"
-date: 2023-07-07
+title: "Tawkie - Frequently Asked Questions"
+description: |
+  Frequently asked questions about Tawkie, the all-in-one messenging app
+  helping you save time and increase your digital wellbeing
+date: 2023-07-10
 ---
 
 ## Question 1

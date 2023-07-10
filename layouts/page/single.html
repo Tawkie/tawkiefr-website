@@ -19,6 +19,23 @@
     <!-- <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/> -->
     {{ $css := resources.Get "css/index.css" | resources.Fingerprint "md5" }}
     <link rel="stylesheet" href="{{ $css.Permalink }}" />
+    <style>
+      .text ul {
+        list-style: disc;
+      }
+
+      .text ol {
+        list-style: decimal;
+      }
+
+      .text a {
+          color: rgb(8 145 178);
+      }
+
+      .text a:hover{
+          border-bottom: 2px solid rgb(8 145 178);
+      }
+    </style>
   </head>
   <body
     class="bg-[#18181A] container"
@@ -29,7 +46,7 @@
       <header class="my-8 sm:my-24">
         <h1 class="text-4xl md:text-5xl text-center font-semibold text-brand-yellow">{{ .Title }}</h1>
       </header>
-      <div>{{ .Content }}</div>
+      <div class="text">{{ .Content }}</div>
     </article>
 
     {{ partial "site-footer.html" . }}
