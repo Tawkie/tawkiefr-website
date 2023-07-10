@@ -18,9 +18,17 @@ Output should be in `./public`.
 
 ## Ajouter du contenu dans la FAQ
 
-Pour ajouter une question dans la FAQ, ouvrez le fichier `content/faq/index.fr.md` (`content/faq/index.en.md` pour la FAQ en anglais) et ajoutez-y une question/réponse en utilisant [le Markdown](https://fr.wikipedia.org/wiki/Markdown).
+Pour ajouter une question dans la FAQ, ouvrez le fichier
+`content/faq/index.fr.md` (`content/faq/index.en.md` pour la FAQ en anglais) et
+ajoutez-y une question/réponse en utilisant [le
+Markdown][markdown].
 
-Pour ajouter une image à une question, ajoutez le fichier dans le dossier `static/faq/` et référencez-le dans le fichier `content/faq/index.fr.md` (`content/faq/index.en.md` pour la FAQ en anglais) en utilisant la syntaxe suivante :
+[markdown]: https://fr.wikipedia.org/wiki/Markdown
+
+Pour ajouter une image à une question, ajoutez le fichier dans le dossier
+`static/faq/` et référencez-le dans le fichier `content/faq/index.fr.md`
+(`content/faq/index.en.md` pour la FAQ en anglais) en utilisant la syntaxe
+suivante :
 
 ``` markdown
 ![Texte alternatif](/faq/nom-du-fichier.png)
