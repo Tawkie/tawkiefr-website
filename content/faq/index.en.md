@@ -63,6 +63,8 @@ Username   : username
 Password   : password
 ```
 
+Once connected, **change your password** in the settings !
+
 If you encounter a problem logging in, send us a message at
 [contact@tawkie.fr](mailto:contact@tawkie.fr).
 
