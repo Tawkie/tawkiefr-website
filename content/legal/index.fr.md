@@ -1,3 +1,5 @@
+## Mentions légales
+
 En vertu de l’article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance
 dans l’économie numérique, et en application du Règlement européen Général sur
 la protection des données personnelles, il est précisé aux utilisateurs du site
@@ -7,15 +9,15 @@ et de son suivi :
 Propriétaire : TAWKIE, SAS au capital de 2 000 euros, dont le siège social est
 226 Rue de Cinclet, 31160 SOUEICH représenté par son président Paul ALNET
 
-Numéro SIRET : [...]
+Numéro SIRET : En cours d'immatriculation
 
 Créateur : Paul ALNET
 
-Responsable de publication : [...]
+Responsable de publication : Paul ALNET
 
 Hébergeur : OVH - 2 rue Kellermann - 59100 Roubaix - France
 
-Propriété intellectuelle et contrefaçons.
+## Propriété intellectuelle et contrefaçons.
 
 TAWKIE est propriétaire des droits de propriété intellectuelle sur les textes,
 graphismes, logo, icônes accessibles sur le site.
@@ -33,7 +35,7 @@ qu’il contient sera considérée comme constitutive d’une contrefaçon et
 poursuivie conformément aux dispositions des articles L.335-2 et suivants du
 Code de Propriété Intellectuelle.
 
-Gestion des données personnelles
+## Gestion des données personnelles
 
 En France, les données personnelles sont notamment protégées par la loi n°
 78-87 du 6 janvier 1978, la loi n° 2004-801 du 6 août 2004, l’article L. 226-13
@@ -43,19 +45,16 @@ RGPD.
 A l’occasion de l’utilisation du site TAWKIE, peuvent êtres recueillies par le
 responsable du traitement ou par des tiers : l’URL des liens par
 l’intermédiaire desquels l’utilisateur a accédé au site, le fournisseur d’accès
-de l’utilisateur, l’adresse de protocole Internet (IP) de l’utilisateur. [est
-ce qu'on est concerné par ça vu le questionnaire d'inscription (adresse mail)
-?]
-
+de l’utilisateur, l’adresse de protocole Internet (IP) de l’utilisateur.
 Le site n'utilise pas de service tiers de collecte de cookies.
 
-Le site est déclaré à la CNIL sous le numéro [...] (???)
+Le site est déclaré à la CNIL sous le numéro TODO.
 
 Les bases de données sont protégées par les dispositions de la loi du 1er
 juillet 1998 transposant la directive 96/9 du 11 mars 1996 relative à la
 protection juridique des bases de données.
 
-Liens hypertextes et cookies.
+## Liens hypertextes et cookies.
 
 Dans le cas ou le site TAWKIE mettrait en place des liens hypertextes vers
 d’autres sites, l’Editeur n’a pas la possibilité de vérifier le contenu des
@@ -94,14 +93,14 @@ Afficher les paramètres avancés. Dans la section « Confidentialité », cliqu
 sur préférences. Dans l’onglet « Confidentialité », vous pouvez bloquer les
 cookies.
 
-Droit applicable et attribution de juridiction.
+## Droit applicable et attribution de juridiction.
 
 Tout litige en relation avec l’utilisation du site TAWKIE est soumis au droit
 français. Il est fait attribution exclusive de juridiction au Tribunal de
 Grande Instance [de commerce ? je pense que c'est grande instance pcq c'est des
 avocats...] de Toulouse.
 
-Les principales lois concernées et lexique des termes utilisés
+## Les principales lois concernées et lexique des termes utilisés
 
 Loi n° 78-17 du 6 janvier 1978, notamment modifiée par la loi n° 2004-801 du 6
 août 2004 relative à l’informatique, aux fichiers et aux libertés.
