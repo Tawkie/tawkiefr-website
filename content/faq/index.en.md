@@ -58,7 +58,7 @@ After downloading [Element][element] or visiting the [web
 application][element-web-alpha], log in with the following information:
 
 ```
-Homeserver : alpha.tawkie.fr
+Homeserver : matrix.alpha.tawkie.fr
 Username   : username
 Password   : password
 ```
