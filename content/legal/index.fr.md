@@ -9,7 +9,7 @@ et de son suivi :
 Propriétaire : TAWKIE, SAS au capital de 2 000 euros, dont le siège social est
 226 Rue de Cinclet, 31160 SOUEICH représenté par son président Paul ALNET
 
-Numéro SIRET : En cours d'immatriculation
+Numéro SIRET : 97825594100012
 
 Créateur : Paul ALNET
 
