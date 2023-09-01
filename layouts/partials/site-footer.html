@@ -20,11 +20,14 @@
         <h4 class="text-xl font-medium text-brand-yellow block">
           {{ i18n "footer_legal" . }}
         </h4>
+        <!--
         <a href="#" class="text-gray-300 hover:text-white block">
           {{ i18n "footer_terms" . }}
         </a>
-        <a href="#" class="text-gray-300 hover:text-white block">
-          {{ i18n "footer_privacy" . }}
+        -->
+        {{ $legalPage := .Site.GetPage "section" "legal" }}
+        <a href="{{ $legalPage.Permalink }}" class="text-gray-300 hover:text-white block">
+          {{ i18n "footer_legal" . }}
         </a>
       </div>
       <div class="space-y-2">
