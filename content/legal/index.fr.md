@@ -96,9 +96,7 @@ cookies.
 ## Droit applicable et attribution de juridiction.
 
 Tout litige en relation avec l’utilisation du site TAWKIE est soumis au droit
-français. Il est fait attribution exclusive de juridiction au Tribunal de
-Grande Instance [de commerce ? je pense que c'est grande instance pcq c'est des
-avocats...] de Toulouse.
+français. 
 
 ## Les principales lois concernées et lexique des termes utilisés
 
