@@ -1,10 +1,10 @@
 <nav class="h-20 flex items-center justify-between bg-[#18181A]">
   <a href="/{{ .Lang }}">{{ partial "logo.html" }}</a>
-  <div class="space-x-8 hidden sm:block">
+  <div class="space-x-4 sm:space-x-8">
     {{ if eq .Lang "fr" }}
-    <a href="/faq" class="text-xl text-gray-400 hover:text-white">FAQ</a>
+    <a href="/faq" class="sm:text-xl text-gray-400 hover:text-white">FAQ</a>
     {{ else }}
-    <a href="/{{ .Lang }}/faq" class="text-xl text-gray-400 hover:text-white">FAQ</a>
+    <a href="/{{ .Lang }}/faq" class="sm:text-xl text-gray-400 hover:text-white">FAQ</a>
     {{ end }}
     {{ partial "i18nlist.html" . }}
   </div>

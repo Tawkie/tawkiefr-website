@@ -63,10 +63,12 @@ Après avoir téléchargé [Element][element] ou s'être rendu.e sur l'[applicat
 web][element-web-alpha], connecte-toi avec les informations suivantes :
 
 ```
-Homeserver : alpha.tawkie.fr
+Homeserver : matrix.alpha.tawkie.fr
 Username   : nomdutilisateur
 Password   : monmotdepassesecure
 ```
+
+Une fois connecté.e, **change ton mot de passe** depuis les paramètres !
 
 Si tu rencontres un problème pour te connecter, envoie-nous un message à
 [contact@tawkie.fr](mailto:contact@tawkie.fr).

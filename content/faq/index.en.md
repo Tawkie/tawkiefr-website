@@ -58,10 +58,12 @@ After downloading [Element][element] or visiting the [web
 application][element-web-alpha], log in with the following information:
 
 ```
-Homeserver : alpha.tawkie.fr
+Homeserver : matrix.alpha.tawkie.fr
 Username   : username
 Password   : password
 ```
+
+Once connected, **change your password** in the settings !
 
 If you encounter a problem logging in, send us a message at
 [contact@tawkie.fr](mailto:contact@tawkie.fr).

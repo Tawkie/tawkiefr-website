@@ -12,7 +12,11 @@
     <meta name="og:site_name" content="{{ i18n "meta_title" }}" />
     <meta name="og:description" content="{{ i18n "meta_description" }}" />
     <meta name="og:type" content="website" />
-    <!-- <meta name="og:image" content="{{ .Site.BaseURL }}logo.png"> -->
+    {{ with resources.Get "images/logo-v1.2-lourd-no-bg.png" }}
+      {{ with .Resize "128x png q75" }}
+        <meta name="og:image" content="{{ .Permalink }}">
+      {{ end }}
+    {{ end }}
     <meta name="og:url" content="{{ .Page.Permalink }}" />
     <meta name="og:locale" content="{{ .Lang }}" />
     {{ range .Translations }}
@@ -61,8 +65,7 @@
           <!-- Buttons -->
           <div class="space-x-6 lg:text-left text-center">
             <a
-              href="{{ i18n "hero_button_url" . }}"
-              target="_blank"
+              href="#section_1"
               class="inline-flex bg-white hover:bg-gray-200 transition-colors text-black px-4 py-3 rounded-md text-lg"
             >
               {{ i18n "hero_button" . }}
@@ -80,7 +83,7 @@
       </div>
     </div>
     <!-- Section -->
-    <div class="container">
+    <div id="section_1" class="container">
       <div class="mt-32 space-y-28">
         <h2
           class="text-4xl md:text-5xl font-medium text-brand-yellow text-center mx-auto max-w-3xl"
