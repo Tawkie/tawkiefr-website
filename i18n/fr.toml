@@ -17,10 +17,10 @@ discord_message = "C'est à quelle heure l'escalade ?"
 
 section_1_title = "Une gestion efficace de toutes vos communications"
 section_1_1_title = "Naviguez facilement entre vos messages"
+section_1_1_text = "Oubliez les applications multiples, avec Tawkie vous pouvez accéder à tous vos messages en un seul endroit. Recevez et répondez sur Instagram, LinkedIn, Messenger, Whatsapp ... depuis le même endroit."
 
-section_1_1_text = "Oubliez les applications multiples, avec Tawkie vous pouvez accéder à tous vos messages en un seul endroit"
 section_1_2_title = "Gagnez en sérénité"
-section_1_2_text = "Restez concentré·e sur vos échanges en évitant les distractions inutiles"
+section_1_2_text = "Gagnez en efficacité au quotidien. Restez concentré·e sur vos échanges en évitant les distractions inutiles."
 
 team_title = "Notre équipe"
 team_text = "Étudiant·e·s en math/info en école d'ingénieur, nous sommes engagé·e·s depuis longtemps dans l'associatif et nous vous proposons un service permettant à tous de mieux communiquer, plus efficacement et plus sereinement. Notre engagement dans l'associatif nous a habitué·e·s aux dizaines de groupes de discussion sur différentes plateformes. Nous souhaitons donc créer une solution modulable aux besoins de chacun·e."
