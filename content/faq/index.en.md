@@ -26,7 +26,7 @@ are visible.
 
 ## Who can use Tawkie?
 
-Currently, the alpha testing phase is limited to adults residing in Europe.
+Currently, the alpha testing phase is limited to adults residing in France.
 Eventually, Tawkie is intended to be available for other audiences.
 
 

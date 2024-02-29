@@ -30,7 +30,7 @@ reçois de tes correspondants le sont.
 ## Qui peut utiliser Tawkie ?
 
 Actuellement, la phase d'alpha testing est limitée aux personnes majeures
-résidant en Europe. À terme, Tawkie a vocation à être disponible pour d'autres
+résidant en France. À terme, Tawkie a vocation à être disponible pour d'autres
 publics.
 
 
