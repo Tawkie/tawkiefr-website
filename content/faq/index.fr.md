@@ -158,6 +158,11 @@ Pour obtenir de l'assistance de Tawkie, plus simple est d'envoyer un message à
 `@honoroit:alpha.tawkie.fr`. Cette nouvelle conversation ouvrira un ticket de
 support auquel nous pourrons répondre !
 
+## Comment puis-je supprimer mon compte ?
+
+Pour le moment le plus simple est de nous envoyer un message sur Honoroit (voir question
+précédente). Alternativement, envoie-nous un mail à [contact@tawkie.fr](mailto:contact@tawkie.fr).
+
 ## Je ne trouve pas réponse à ma question, comment vous contacter ?
 
 Désolé que cette FAQ n'ait pas pu t'aider.

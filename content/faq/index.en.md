@@ -150,6 +150,12 @@ To get assistance from Tawkie, the easiest way is to send a message to
 `@honoroit:alpha.tawkie.fr`. This new conversation will open a support ticket
 that we can respond to!
 
+## How can I delete my account?
+
+For now, the easiest way is to send us a message on Honoroit (see previous question).
+Alternatively, send us an email at [contact@tawkie.fr](mailto:contact@tawkie.fr).
+
+
 ## I can't find the answer to my question, how can I contact you?
 
 Sorry that this FAQ couldn't help you.
