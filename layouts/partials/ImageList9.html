@@ -1,0 +1,11 @@
+<div
+    class=" inline-flex p-2 gap-2 select-none"
+    >
+    {{ with resources.Get "images/Logo_Incoplex.webp" }}
+        <img
+            src="{{ .Permalink }}"
+            alt="Logo INSA"
+            class="resize"
+        />
+    {{ end }}
+</div>

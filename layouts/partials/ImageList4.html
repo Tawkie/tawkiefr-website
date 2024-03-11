@@ -1,0 +1,13 @@
+<div
+class=" inline-flex p-2 gap-2 select-none"
+    >
+    {{ with resources.Get "images/logo-pragma-consult-violet.png" }}
+        {{ with .Resize "500x png q75" }}
+        <img
+            src="{{ .Permalink }}"
+            alt="Logo INSA"
+            class="resize"
+        />
+        {{ end }}
+    {{ end }}
+</div>

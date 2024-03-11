@@ -1,0 +1,14 @@
+<div
+class=" inline-flex p-2 gap-2 select-none"
+>
+    {{ with resources.Get  "images/logoinsa.png"}}
+        {{ with .Resize "500x png q50" }}
+        <img
+            src="{{ .Permalink }}"
+            alt="Logo INSA"
+            class="taille"
+        />
+        <img src="" alt="">
+        {{ end }}
+    {{ end }}
+</div>

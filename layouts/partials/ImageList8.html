@@ -1,0 +1,13 @@
+<div
+class=" inline-flex p-2 gap-2 select-none"
+    >
+    {{ with resources.Get "images/Logo_FT_Toulouse_Couleursite.png" }}
+        {{ with .Resize "500x png q75" }}
+        <img
+            src="{{ .Permalink }}"
+            alt="Logo INSA"
+            class="taille2"
+        />
+        {{ end }}
+    {{ end }}
+</div>
