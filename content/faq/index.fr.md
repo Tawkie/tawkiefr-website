@@ -23,58 +23,37 @@ Oui ! Les messages envoyés depuis Tawkie seront visibles depuis les application
 des réseaux sociaux.
 
 L'inverse n'est pas toujours vraie, sur certaines plateformes les messages que
-tu envoies ne soient pas visibles sur Tawkie. En revanche les messages que tu
+tu envoies ne sont pas visibles sur Tawkie. En revanche les messages que tu
 reçois de tes correspondants le sont.
 
 
 ## Qui peut utiliser Tawkie ?
 
-Actuellement, la phase d'alpha testing est limitée aux personnes majeures
-résidant en France. À terme, Tawkie a vocation à être disponible pour d'autres
-publics.
+Tawkie est une application disponible partout dans le monde pour les personnes majeures.
+
+## Où puis-je me créer un compte ?
+
+Face à la grande demande, Tawkie fonctionne pour le moment en liste d'attente. Pour s'inscrire rendez vous sur notre site [tawkie.fr][tawkie], cliquez sur "Sign Up" puis entrez et validez votre mail pour prendre votre place dans la liste d'attente. Vous pourrez alors choisir votre nom d'utilisateur et voir votre place dans la queue.
+
+## Combien de temps dois-je attendre dans la lise d'attente ?
+
+Nous faisons tout notre possible pour ouvrir le maximum de comptes chaque jour. Le temps d'attente moyen est autour de 7 jours. 
+
+[tawkie]: https://www.tawkie.fr
 
 
-## Pourquoi dois-je télécharger Element pour profiter du service de Tawkie ?
+## A quoi correspondent les serveurs alpha.tawkie.fr et loveto.party ?
 
-Tawkie repose sur la technologie [Matrix][matrix]. Matrix définit comment un
-serveur (Tawkie) et un client (ton téléphone ou ordinateur) peuvent communiquer
-pour échanger des messages de façon sécurisée et fédérée.
-
-Pour se connecter à Tawkie, il faut utiliser une application conforme à la
-spécification Matrix. Il en existe [plusieurs][matrix-clients]; nous
-recommandons [Element][element].
-
-Nous travaillons sur le développement d'une application Tawkie avec plus de
-fonctionnalités spécifiques.
+Tawkie repose sur la technologie [Matrix][matrix]. Matrix se découpe en serveurs sur lesquels les différents comptes utilisateurs sont répartis. Le serveur alpha.tawkie.fr est le votre, celui des client·es et loveto.party est le serveur que nous utilisons avec nos équipes pour travailler et faire les tests. 
 
 [matrix]: https://matrix.org/
 [matrix-clients]: https://matrix.org/ecosystem/clients/
-[element]: https://matrix.org/ecosystem/clients/element/
-
-
-## Quand sera prête l'application finale ?
-
-Nous prévoyons de la publier en début d'année 2024.
 
 
 ## Comment se connecter sur Tawkie ?
 
-Après avoir téléchargé [Element][element] ou s'être rendu.e sur l'[application
-web][element-web-alpha], connecte-toi avec les informations suivantes :
-
-```
-Homeserver : matrix.alpha.tawkie.fr
-Username   : nomdutilisateur
-Password   : monmotdepassesecure
-```
-
-Une fois connecté.e, **change ton mot de passe** depuis les paramètres !
-
-Si tu rencontres un problème pour te connecter, envoie-nous un message à
-[contact@tawkie.fr](mailto:contact@tawkie.fr).
-
-[element-web-alpha]: https://element.alpha.tawkie.fr/
-
+Après avoir téléchargé et lancé l'application Tawkie, vous pouvez rentrer votre identifiant et votre mot de passe temporaire. Attention à bien avoir choisi le serveur **alpha.tawkie.fr**.
+Il est important de changer votre mot de passe au plus vite pour limiter le risque.
 
 ## Comment se connecter sur les différents réseaux sociaux ?
 
