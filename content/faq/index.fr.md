@@ -27,7 +27,7 @@ L'inverse n'est pas toujours vrai, sur certaines plateformes les messages que tu
 
 ## Est-ce que mes interlocuteurs voient que j'utilise Tawkie ?
 
-Non ! Vos messages apparaîtront de la même façon qu'avant et vos interlocuteurs ne pourront pas remarquer que tu utilises Tawkie pour discuter avec eux.
+Non ! Tes messages apparaîtront de la même façon qu'avant et tes interlocuteurs ne pourront pas remarquer que tu utilises Tawkie pour discuter avec eux.
 
 ## Qui peut utiliser Tawkie ?
 
@@ -35,7 +35,7 @@ Tawkie est une application disponible partout dans le monde pour les personnes m
 
 ## Où puis-je me créer un compte ?
 
-Face à la demande, Tawkie fonctionne pour le moment en liste d'attente. Pour s'inscrire rendez vous sur notre site [tawkie.fr][tawkie], cliquez sur "Sign Up" puis entre et valide ton mail pour prendre votre place dans la liste d'attente. Tu pourras alors choisir ton nom d'utilisateur et voir ta place dans la queue.
+Face à la demande, Tawkie fonctionne pour le moment en liste d'attente. Pour s'inscrire rendez-vous sur notre site [tawkie.fr][tawkie], clique sur "Sign Up" puis entre et valide ton mail pour prendre ta place dans la liste d'attente. Tu pourras alors choisir ton nom d'utilisateur et voir ta place dans la queue.
 
 [tawkie]: https://www.tawkie.fr
 
@@ -53,12 +53,12 @@ Tawkie repose en partie sur la technologie [Matrix][matrix]. Matrix s'installe s
 
 ## Comment se connecter sur Tawkie ?
 
-Quand vous arrivez au bout de la liste d'attente, nous vous avertissons avec un mail et vous pourrez vous connecter à Tawkie ! Après avoir téléchargé et lancé l'application Tawkie, vous pouvez rentrer votre identifiant et votre mot de passe temporaire. Attention à bien avoir choisi le serveur **alpha.tawkie.fr**.
-Il est important de changer votre mot de passe au plus vite pour limiter les risques.
+Quand tu arrives au bout de la liste d'attente, nous t''avertissons avec un mail et tu peux te connecter à Tawkie ! Après avoir téléchargé et lancé l'application Tawkie, tu peux rentrer ton identifiant et ton mot de passe temporaire. Attention à bien avoir choisi le serveur **alpha.tawkie.fr**.
+Il est important de changer ton mot de passe au plus vite pour limiter les risques.
 
 ## Comment se connecter sur les différents réseaux sociaux ?
 
-Avant de vous connecter sur Tawkie (et de manière générale), il est IMPORTANT d'activer l'authentification à double facteur (2FA - disponible dans les paramètres de sécurité de vos réseaux sociaux). Cela permet de renforcer la sécurité de votre compte et éviter que les plateformes ne s'inquiètent d'une nouvelle connexion.
+Avant de te connecter sur Tawkie (et de manière générale), il est IMPORTANT d'activer l'authentification à double facteur (2FA - disponible dans les paramètres de sécurité de tes réseaux sociaux). Cela permet de renforcer la sécurité de ton compte et éviter que les plateformes ne s'inquiètent d'une nouvelle connexion.
 
 Pour te connecter tu peux cliquer sur l'onglet "Connecter un compte" et choisir le réseau social que tu veux connecter. 
 
@@ -90,7 +90,7 @@ Pour obtenir de l'assistance de Tawkie, le plus simple est d'envoyer un message 
 
 ## Comment puis-je supprimer mon compte ?
 
-Pour supprimer votre compte il suffit de nous envoyer un message sur Honoroit (voir question précédente). Alternativement, envoie-nous un mail à [contact@tawkie.fr](mailto:contact@tawkie.fr).
+Pour supprimer ton compte il suffit de nous envoyer un message sur Honoroit (voir question précédente). Alternativement, envoie-nous un mail à [contact@tawkie.fr](mailto:contact@tawkie.fr).
 
 ## Je ne trouve pas réponse à ma question, comment vous contacter ?
 
