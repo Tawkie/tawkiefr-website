@@ -16,19 +16,18 @@ Les fichiers peuvent aussi être envoyés sur certains réseaux. Nous prévoyons
 d'étendre cette fonctionnalité où l'envoi de fichier n'est pas nativement
 supporté (Instagram par exemple), en fournissant un lien de téléchargement.
 
-Pour le moment, certains types d'images sont parfois mal reçues sur Instagram. Nous vous précisons dans la conversation qu'une image n'a pas été bien transmise si jamais. Nous travaillons activement à la résolution de ce petit bug.
+Pour le moment, certains types d'images sont parfois mal reçues sur Instagram. Nous te précisons dans la conversation qu'une image n'a pas été bien transmise si jamais. Nous travaillons activement à la résolution de ce petit bug.
 
 
 ## Est-ce que les messages que j'envoie depuis Tawkie apparaîssent sur mes réseaux sociaux ?
 
 Oui ! Les messages envoyés depuis Tawkie seront visibles depuis les applications des réseaux sociaux.
 
-L'inverse n'est pas toujours vrai, sur certaines plateformes les messages que tu envoies ne sont pas visibles sur Tawkie (WhatsApp ou Instagram par exemple). En revanche les messages que tu
-reçois de tes correspondants le sont tous.
+L'inverse n'est pas toujours vrai, sur certaines plateformes les messages que tu envoies ne sont pas visibles sur Tawkie (WhatsApp ou Instagram par exemple). En revanche les messages que tu reçois de tes correspondants le sont tous.
 
 ## Est-ce que mes interlocuteurs voient que j'utilise Tawkie ?
 
-Non ! Vos messages apparaîtront de la même façon qu'avant et vos interlocuteurs ne pourront pas remarquer que vous utiliser Tawkie pour discuter avec eux.
+Non ! Vos messages apparaîtront de la même façon qu'avant et vos interlocuteurs ne pourront pas remarquer que tu utilises Tawkie pour discuter avec eux.
 
 ## Qui peut utiliser Tawkie ?
 
@@ -36,22 +35,21 @@ Tawkie est une application disponible partout dans le monde pour les personnes m
 
 ## Où puis-je me créer un compte ?
 
-Face à la demande, Tawkie fonctionne pour le moment en liste d'attente. Pour s'inscrire rendez vous sur notre site [tawkie.fr][tawkie], cliquez sur "Sign Up" puis entrez et validez votre mail pour prendre votre place dans la liste d'attente. Vous pourrez alors choisir votre nom d'utilisateur et voir votre place dans la queue.
+Face à la demande, Tawkie fonctionne pour le moment en liste d'attente. Pour s'inscrire rendez vous sur notre site [tawkie.fr][tawkie], cliquez sur "Sign Up" puis entre et valide ton mail pour prendre votre place dans la liste d'attente. Tu pourras alors choisir ton nom d'utilisateur et voir ta place dans la queue.
+
+[tawkie]: https://www.tawkie.fr
 
 ## Combien de temps dure la liste d'attente ?
 
 Nous faisons tout notre possible pour ouvrir le maximum de comptes chaque jour. Le temps d'attente moyen en ce moment est autour de 7 jours. 
 
-[tawkie]: https://www.tawkie.fr
-
 
 ## A quoi correspondent les serveurs alpha.tawkie.fr et loveto.party ?
 
-Tawkie repose en partie sur la technologie [Matrix][matrix]. Matrix s'installe sur des serveurs sur lesquels les différents comptes utilisateurs·rices sont répartis. Le serveur alpha.tawkie.fr est le votre, celui des client·es et loveto.party est le serveur que nous utilisons avec nos équipes pour travailler et faire les tests. 
+Tawkie repose en partie sur la technologie [Matrix][matrix]. Matrix s'installe sur des serveurs sur lesquels les différents comptes utilisateurs·rices sont répartis. Le serveur alpha.tawkie.fr est le tien, celui des client·es et loveto.party est le serveur que nous utilisons avec nos équipes pour travailler et faire les tests. 
 
 [matrix]: https://matrix.org/
-[matrix-clients]: https://matrix.org/ecosystem/clients/
-    
+  
 
 ## Comment se connecter sur Tawkie ?
 
@@ -66,11 +64,11 @@ Pour te connecter tu peux cliquer sur l'onglet "Connecter un compte" et choisir 
 
 Une fois connecté.e, tes conversations récentes pour chaque réseau devraient s'afficher.
 
-## Comment est-ce que je peux envoyer un DM (Demande par Message) ?
+## Comment est-ce que je peux envoyer un DM (Direct Message) ?
 
 Pour certains réseaux, tu as la possibilité de créer une nouvelle conversation directement depuis Tawkie. Pour cela, tu peux utiliser la fonction "Nouvelle conversation" et chercher la personne à qui tu veux envoyer un nouveau message.
 
-## Est-ce que je peux connecter 2 réseaux comptes d'un même réseau social sur Tawkie ?
+## Est-ce que je peux connecter 2 comptes d'un même réseau social sur Tawkie ?
 
 Pour le moment Tawkie n'offre pas cette possibilité mais nous travaillons actuellement à son développement et nous espérons pouvoir l'intégrer à l'application avant l'été 2024.
 
@@ -84,12 +82,7 @@ installées, particulièrement :
 - Signal
 - Télégram
 
-Les autres applications peuvent être désinstallées, mais nous recommandons de les maintenir installées au cas où (la connexion à de nouvelles applications étant souvent vu comme des failles de sécurité pour le réseau social).
-
-
-## Comment naviguer encore plus efficacement mes messages ?
-
-Sur ordinateur, Tawkie propose une multitude de raccourcis. Vous pouvez les consulter dans les paramètres.
+Les autres applications peuvent être désinstallées, mais nous recommandons de les maintenir installées au cas où. Tu peux couper les notifications cependant pour éviter de recevoir 2 notifications pour chaque message.
 
 ## Comment fonctionne Honoroit, le service d'assistance ?
 

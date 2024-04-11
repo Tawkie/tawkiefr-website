@@ -32,11 +32,11 @@ Tawkie is an application available worldwide for adults.
 
 Due to demand, Tawkie currently operates on a waiting list basis. To sign up, visit our website [tawkie.fr](https://www.tawkie.fr), click on "Sign Up", enter and validate your email to secure your spot in the waiting list. You'll then be able to choose your username and see your position in the queue.
 
+[tawkie]: https://www.tawkie.fr
+
 ## How long is the waiting list?
 
 We're doing our best to open as many accounts as possible every day. The average wait time at the moment is around 7 days. 
-
-[tawkie]: https://www.tawkie.fr
 
 ## What do the servers alpha.tawkie.fr and loveto.party correspond to?
 
@@ -69,11 +69,7 @@ Applications depending on the phone number must be kept installed, especially:
 - Signal
 - Telegram
 
-Other applications can be uninstalled, but we recommend keeping them installed just in case (connecting to new applications is often seen as security vulnerabilities for the social network).
-
-## How can I navigate my messages even more efficiently?
-
-On the computer, Tawkie offers a multitude of shortcuts. You can check them in the settings.
+Other applications can be uninstalled, but we recommend keeping them installed just in case. However, you can turn off notifications to avoid to receive it twice for each message.
 
 ## How does Honoroit, the support service, work?
 
