@@ -879,7 +879,7 @@ Lorsque vous naviguez puisque lorsque vous créez un Compte client, vous
 confirmez avoir lu, compris et accepté notre politique de traitement des
 données par le biais d’une case à cocher.
 
-[privacy-policy]: TODO
+[privacy-policy]: /privacy-policy/
 
 ### Langue, droit et juridictions
 
