@@ -30,6 +30,10 @@
         <a href="{{ $legalPage.Permalink }}" class="text-gray-300 hover:text-white block">
           {{ i18n "footer_legal" . }}
         </a>
+        {{ $legalPrivacyPolicyPage := .Site.GetPage "section" "privacy-policy" }}
+        <a href="{{ $legalPrivacyPolicyPage.Permalink }}" class="text-gray-300 hover:text-white block">
+          {{ i18n "footer_legal_privacy_policy" . }}
+        </a>
       </div>
       <div class="space-y-2">
         <h4 class="text-xl font-medium text-brand-yellow">
