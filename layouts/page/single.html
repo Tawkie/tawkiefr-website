@@ -24,14 +24,6 @@
     {{ $css := resources.Get "css/index.css" | resources.Fingerprint "md5" }}
     <link rel="stylesheet" href="{{ $css.Permalink }}" />
     <style>
-      .text ul {
-        list-style: disc;
-      }
-
-      .text ol {
-        list-style: decimal;
-      }
-
       .text a {
           color: rgb(8 145 178);
       }

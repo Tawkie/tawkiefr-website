@@ -15,6 +15,30 @@ article#markdown h2 {
   @apply text-2xl font-semibold mt-6 mb-4 text-brand-orange/80;
 }
 
+article#markdown h3 {
+  @apply text-2xl font-semibold mt-4 mb-4 text-brand-pink;
+}
+
+article#markdown h4 {
+  @apply text-2xl font-semibold mt-4 mb-4 text-brand-yellow;
+}
+
+article#markdown h5 {
+  @apply text-xl font-semibold mt-4 mb-4 text-white;
+}
+
 article#markdown p {
   @apply text-lg my-4 text-gray-300;
+}
+
+article#markdown ol {
+  @apply list-decimal ps-8;
+}
+
+article#markdown ul {
+  @apply list-disc ps-8;
+}
+
+article#markdown li {
+  @apply text-lg text-gray-300;
 }
