@@ -6,56 +6,88 @@ description: |
 date: 2023-07-10
 ---
 
-## Can I send voice messages, videos, images... ?
+## Can I send voice messages, videos, images...?
 
-Yes! These different types of content can be sent on most social networks,
-depending on the features they support.
+Yes! These different types of content can be sent on most social networks, depending on the supported features.
 
-Files can also be sent on certain networks. We plan to extend this feature
-where file sending is not natively supported, by providing a download link.
+Files can also be sent on certain networks. We plan to expand this functionality to networks where file sending is not natively supported (Instagram, for example), by providing a download link.
 
+Currently, some types of images are sometimes not received well on Instagram. We'll let you know in the conversation if an image hasn't been transmitted properly. We're actively working to fix this small bug.
 
 ## Do the messages I send from Tawkie appear on my social networks?
 
-Yes! Messages sent from Tawkie will be visible from social network apps.
+Yes! Messages sent from Tawkie will be visible from social media applications.
 
-The reverse is not always true, on some platforms, messages that you send may
-not be visible on Tawkie. However, messages that you receive from your contacts
-are visible.
+The reverse isn't always true; on some platforms, the messages you send aren't visible on Tawkie (WhatsApp or Instagram, for example). However, all the messages you receive from your contacts are.
 
+## Can my contacts see that I'm using Tawkie?
+
+No! Your messages will appear the same as before, and your contacts won't be able to tell that you're using Tawkie to chat with them.
 
 ## Who can use Tawkie?
 
-Currently, the alpha testing phase is limited to adults residing in France.
-Eventually, Tawkie is intended to be available for other audiences.
+Tawkie is an application available worldwide for adults.
 
+## Where can I create an account?
 
-## Why do I have to download Element to take advantage of Tawkie's service?
+Due to demand, Tawkie currently operates on a waiting list basis. To sign up, visit our website [tawkie.fr](https://www.tawkie.fr), click on "Sign Up", enter and validate your email to secure your spot in the waiting list. You'll then be able to choose your username and see your position in the queue.
 
-Tawkie relies on the [Matrix][matrix] technology. Matrix defines how a server
-(Tawkie) and a client (your phone or computer) can communicate to exchange
-messages in a secure and federated way.
+[tawkie]: https://www.tawkie.fr
 
-To connect to Tawkie, you need to use an application that complies with the
-Matrix specification. There are [several][matrix-clients]; we recommend
-[Element][element].
+## How long is the waiting list?
 
-We are working on developing a Tawkie application with more specific features.
+We're doing our best to open as many accounts as possible every day. The average wait time at the moment is around 7 days. 
 
-[matrix]: https://matrix.org/
-[matrix-clients]: https://matrix.org/ecosystem/clients/
-[element]: https://matrix.org/ecosystem/clients/element/
+## What do the servers alpha.tawkie.fr and loveto.party correspond to?
 
+Tawkie relies in part on [Matrix](https://matrix.org/) technology. Matrix is installed on servers where different user accounts are distributed. The alpha.tawkie.fr server is yours, that of the clients, and loveto.party is the server we use with our teams to work and test.
 
-## When will the final application be ready?
+## How do I log in to Tawkie?
 
-We plan to release it in early 2024.
+When you reach the end of the waiting list, we'll notify you via email, and you'll be able to log in to Tawkie! After downloading and launching the Tawkie application, you can enter your username and temporary password. Make sure to select the **alpha.tawkie.fr** server. It's important to change your password as soon as possible to limit risks.
 
+## How do I log in to different social networks?
 
-## How to connect to Tawkie?
+Before logging in to Tawkie (and in general), it's IMPORTANT to enable two-factor authentication (2FA - available in the security settings of your social networks). This enhances the security of your account and prevents platforms from being concerned about a new connection.
 
-After downloading [Element][element] or visiting the [web
-application][element-web-alpha], log in with the following information:
+To log in, you can click on the "Connect an Account" tab and choose the social network you want to connect to. Once connected, your recent conversations for each network should appear.
+
+## How can I send a Direct Message (DM)?
+
+For some networks, you have the option to create a new conversation directly from Tawkie. To do this, you can use the "New Conversation" function and search for the person you want to send a new message to.
+
+## Can I connect 2 accounts from the same social network on Tawkie?
+
+Currently, Tawkie doesn't offer this possibility, but we're currently working on its development, and we hope to integrate it into the application before summer 2024.
+
+## Can I uninstall the applications now?
+
+Initially, we recommend keeping them installed for at least a few days to ensure everything is working smoothly.
+
+Applications depending on the phone number must be kept installed, especially:
+- WhatsApp
+- Signal
+- Telegram
+
+Other applications can be uninstalled, but we recommend keeping them installed just in case. However, you can turn off notifications to avoid to receive it twice for each message.
+
+## How does Honoroit, the support service, work?
+
+To get assistance from Tawkie, the simplest way is to send a message to `@honoroit:alpha.tawkie.fr`. This new conversation will open a support ticket to which we can respond!
+
+## How can I delete my account?
+
+To delete your account, simply send us a message on Honoroit (see previous question). Alternatively, send us an email at [contact@tawkie.fr](mailto:contact@tawkie.fr).
+
+## I can't find an answer to my question, how can I contact you?
+
+Sorry that this FAQ couldn't help you.
+
+If you're logged into Tawkie, send us a message via [Honoroit](#).
+
+Otherwise, send us an email at [contact@tawkie.fr](mailto:contact@tawkie.fr).
+
+If it's a technical question, send an email to [root@tawkie.fr](mailto:root@tawkie.fr).
 
 ```
 Homeserver : matrix.alpha.tawkie.fr
