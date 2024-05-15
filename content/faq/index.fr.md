@@ -31,7 +31,7 @@ Non ! Tes messages apparaîtront de la même façon qu'avant et tes interlocuteu
 
 ## Qui peut utiliser Tawkie ?
 
-Tawkie est une application disponible partout dans le monde pour les personnes majeures.
+Tawkie est une application disponible en France pour les personnes majeures.
 
 ## Où puis-je me créer un compte ?
 

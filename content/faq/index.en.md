@@ -26,7 +26,7 @@ No! Your messages will appear the same as before, and your contacts won't be abl
 
 ## Who can use Tawkie?
 
-Tawkie is an application available worldwide for adults.
+Tawkie is an available in France to adults.
 
 ## Where can I create an account?
 
