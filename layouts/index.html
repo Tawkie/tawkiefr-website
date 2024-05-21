@@ -70,7 +70,20 @@
             >
               {{ i18n "hero_button" . }}
             </a>
+            
           </div>
+          <div class="container flex items-center">
+              <div class="inline-flex container">
+              <a href="https://apps.apple.com/fr/app/tawkie-all-in-one-messaging/id6478212392" target="_blank" class="">
+              {{ partial "button_apple.html" . }}
+              </a>
+            </div>
+              <div class="inline-flex container">
+              <a href="https://play.google.com/store/apps/details?id=fr.tawkie.app" target="_blank" class="">
+                {{ partial "button_android.html" . }}
+              </a>
+            </div>
+      </div>
           <p
             class="text-gray-100 max-w-sm lg:max-w-none lg:text-left text-center lg:mx-0 mx-auto"
           >
