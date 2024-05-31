@@ -39,10 +39,10 @@ pricing_3_price = "7€"
 
 month = "month"
 
-alpha_title = "Join the waiting list"
+alpha_title = "Join Tawkie"
 alpha_text = "Become a Tawkie user and boost your productivity !"
 alpha_signup = "Sign up"
-alpha_button_url = "https://framaforms.org/tawkie-waiting-list-1702398723"
+alpha_button_url = "#"
 
 footer_faq = "FAQ"
 footer_links = "Links"
@@ -54,3 +54,4 @@ footer_contact = "Contact"
 footer_img_src = "Images from : "
 footer_google = "Google Play and the Google Play logo are trademarks of Google LLC."
 footer_apple = "Mac, iMessage, iPhone and Apple are trademarks of Apple Inc."
+
