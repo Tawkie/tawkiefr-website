@@ -63,13 +63,17 @@
             </p>
           </div>
           <!-- Buttons -->
-          <div class="space-x-6 lg:text-left text-center">
-            <a
-              href="{{ i18n "hero_button_link" . }}"
-              class="inline-flex bg-white hover:bg-gray-200 transition-colors text-black px-4 py-3 rounded-md text-lg"
-            >
-              {{ i18n "hero_button" . }}
-            </a>
+          <div class="container xl:columns-2 flex-wrap justify-center items-center">
+            <div class="w-full inline-flex justify-center items-center my-2">
+              <a href="https://apps.apple.com/fr/app/tawkie-all-in-one-messaging/id6478212392" target="_blank" class="h-20">
+                {{ partial "button_apple.html" . }}
+              </a>
+            </div>
+            <div class="w-full inline-flex justify-center items-center my-2">
+              <a href="https://play.google.com/store/apps/details?id=fr.tawkie.app" target="_blank" class="">
+                {{ partial "button_android.html" . }}
+              </a>
+            </div>
           </div>
           <p
             class="text-gray-100 max-w-sm lg:max-w-none lg:text-left text-center lg:mx-0 mx-auto"
