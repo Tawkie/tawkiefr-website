@@ -1,11 +1,11 @@
 <div
-class=" inline-flex  gap-2 select-none"
+class="max-w-[235px]"
 >
     {{ with resources.Get "images/Download_on_the_App_Store_Badge_FR_RGB_blk_100517.svg" }}
         <img
             src="{{ .Permalink }}"
             alt="Lien apple"
-            class="h-20"
+            class="h-20 lg:max-w-none inline-flex"
         />
     {{ end }}
 </div>

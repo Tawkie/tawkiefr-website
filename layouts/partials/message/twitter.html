@@ -1,4 +1,5 @@
-<div class="flex items-end gap-2 select-none">
+<div class="flex content-center items-end gap-2 select-none">
+  <div class="flex content-center bg-[#303338] px-4 py-2 rounded-xl rounded-bl-none">
   {{ with resources.Get "images/profile_pic_2.png" }}
     {{ with .Resize "128x png q75" }}
     <img
@@ -9,7 +10,7 @@
     {{ end }}
   {{ end }}
   
-  <div class="bg-[#303338] px-3 py-2 rounded-xl rounded-bl-none">
+  
     <p class="text-white max-w-[180px]">
       {{ i18n "twitter_message" . }}
     </p>

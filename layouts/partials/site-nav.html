@@ -2,9 +2,9 @@
   <a href="/{{ .Lang }}">{{ partial "logo.html" }}</a>
   <div class="space-x-4 sm:space-x-8">
     {{ if eq .Lang "fr" }}
-    <a href="/faq" class="sm:text-xl text-gray-400 hover:text-white">FAQ</a>
+    <a href="/faq" class="sm:text-xl  hover:text-brand-purple-alt bg-white text-black rounded-md">FAQ</a>
     {{ else }}
-    <a href="/{{ .Lang }}/faq" class="sm:text-xl text-gray-400 hover:text-white">FAQ</a>
+    <a href="/{{ .Lang }}/faq" class="sm:text-xl text-gray-400 hover:text-white text-black bg-white rounded-md">FAQ</a>
     {{ end }}
     {{ partial "i18nlist.html" . }}
   </div>

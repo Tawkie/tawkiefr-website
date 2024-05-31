@@ -36,11 +36,27 @@
     </div>
     <!-- Hero -->
     <div class="container">
+      <div>
+        <div class="flex items-center gap-3 justify-center">
+          {{ with resources.Get "images/logo-v1.2-lourd.png" }}
+            {{ with .Resize "128x png q75" }}
+              <img src="{{ .Permalink }}" alt="Tawkie" class="w-\[340px\] " />
+            {{ end }}
+          {{ end }}
+        </div>
+        <h1 class="text-gray-100 text-3xl md:text-4xl lg:text-7xl xl:text-9xl font-bold lg:text-left text-center flex justify-center">
+        {{ i18n "title" . }}
+      </h1 >
+      <h1 class="text-brand-yellow text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold  text-center flex justify-center">
+      {{ i18n "hero_title" . }}
+      </h1>
+      </div>
       <div
         class="flex items-center lg:flex-row flex-col py-20 space-y-8 sm:space-y-20"
       >
         <div class="space-y-10">
           <!-- Text -->
+          
           <div class="space-y-5">
             <!-- Pill -->
             <!-- <div -->
@@ -51,11 +67,7 @@
             <!--   </p> -->
             <!--   {{ partial "svg/arrow-right.html" . }} -->
             <!-- </div> -->
-            <h1
-              class="text-brand-yellow text-5xl md:text-7xl lg:text-7xl xl:text-9xl font-bold lg:text-left text-center"
-            >
-              {{ i18n "hero_title" . }}
-            </h1>
+            
             <p
               class="text-brand-orange text-2xl lg:text-3xl font-medium max-w-lg lg:max-w-none lg:text-left text-center lg:mx-0 mx-auto"
             >
@@ -63,27 +75,27 @@
             </p>
           </div>
           <!-- Buttons -->
-          <div class="space-x-6 lg:text-left text-center">
+          <div class="container lg:text-left text-center inline-flex flex justify-center items-center">
             <a
               href="#section_1"
-              class="inline-flex bg-white hover:bg-gray-200 transition-colors text-black px-4 py-3 rounded-md text-lg"
+              class="inline-flex flex justify-center items-center bg-white hover:bg-gray-200 transition-colors text-black px-4 py-3 rounded-2xl text-lg"
             >
               {{ i18n "hero_button" . }}
             </a>
             
           </div>
-          <div class="container flex items-center">
-              <div class="inline-flex container">
+          <div class="container flex flex-wrap justify-center items-center">
+            <div class="container inline-flex justify-center items-center">
               <a href="https://apps.apple.com/fr/app/tawkie-all-in-one-messaging/id6478212392" target="_blank" class="">
               {{ partial "button_apple.html" . }}
               </a>
             </div>
-              <div class="inline-flex container">
+            <div class=" container inline-flex justify-center items-center">
               <a href="https://play.google.com/store/apps/details?id=fr.tawkie.app" target="_blank" class="">
                 {{ partial "button_android.html" . }}
               </a>
             </div>
-      </div>
+          </div>
           <p
             class="text-gray-100 max-w-sm lg:max-w-none lg:text-left text-center lg:mx-0 mx-auto"
           >
@@ -96,7 +108,7 @@
       </div>
     </div>
     <!-- Section -->
-    <div id="section_1" class="container">
+    <div id="section_1" class="container ">
       <div class="mt-32 space-y-28">
         <h2
           class="text-4xl md:text-5xl font-medium text-brand-yellow text-center mx-auto max-w-3xl"
@@ -132,6 +144,59 @@
       </div>
     </div>
     <div class="container">
+      <div>
+        <div class="flex justify-around mt-20">
+          <h2 class="text-4xl md:text-5xl font-medium text-brand-yellow  mx-auto max-w-3xl ">
+        {{ i18n "footer_faq" . }}
+        </h2>
+        {{ $faqPage := .Site.GetPage "section" "faq" }}
+        <a class="inline-flex bg-white hover:bg-gray-200 transition-colors text-black px-4 py-3 rounded-2xl text-lg mb-8" href="{{ $faqPage.Permalink }}">
+          {{ i18n "faq_button" . }}
+        </a>
+      </div>  
+        <div class="border border-gray-400 rounded-2xl mb-8">
+          <h2 class="text-4xl md:text-5xl font-medium text-brand-yellow  mx-auto max-w-3xl " >
+            Est-ce que je peux envoyer des messages vocaux, des vidéos, des images... ?
+          </h2>
+          <p class="mt-5 text-gray-100 text-xl  max-w-6xl mx-auto ">
+            Oui ! Ces différents contenus peuvent être envoyés sur la plupart des réseaux
+            sociaux, selon les fonctionnalités supportés.</p>
+            <p class="mt-5 text-gray-100 text-xl max-w-6xl mx-auto">
+              Les fichiers peuvent aussi être envoyés sur certains réseaux. Nous prévoyons
+              d'étendre cette fonctionnalité où l'envoi de fichier n'est pas nativement
+              supporté, en fournissant un lien de téléchargement.</p>
+        </div>
+        <div class="border border-gray-400 rounded-2xl mb-8">
+          <h2 class="text-4xl md:text-5xl font-medium text-brand-yellow  mx-auto max-w-3xl " >
+            Qui peut utiliser Tawkie ?
+          </h2>
+          <p class="mt-5 text-gray-100 text-xl  max-w-6xl mx-auto ">
+            Actuellement, la phase d'alpha testing est limitée aux personnes majeures
+            résidant en Europe. À terme, Tawkie a vocation à être disponible pour d'autres
+            publics.
+          </p>
+        </div>
+        <div class="border border-gray-400 rounded-2xl ">
+          <h2 class="text-4xl md:text-5xl font-medium text-brand-yellow  mx-auto max-w-3xl " >
+            Est-ce que je peux désinstaller les applications maintenant ?
+          </h2>
+          <p class="mt-5 text-gray-100 text-xl  max-w-6xl mx-auto ">
+            Dans un premier temps, nous recommandons de les garder installées au moins
+quelques jours, pour s'assurer que tout fonctionne bien.
+
+Les applications dépendant du numéro de téléphone doivent être maintenues
+installées, particulièrement :
+- Whatsapp
+- Signal
+- Télégram
+
+Les autres applications semblent pouvoir être désinstallées, mais nous
+recommandons de les maintenir installées.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
       <div class="my-32">
         <h2 class="text-4xl md:text-5xl font-medium text-brand-yellow text-center mx-auto max-w-3xl">
           {{ i18n "team_title" . }}
@@ -142,6 +207,54 @@
         <div class="text-brand-purple-alt mt-20 flex justify-center">
           {{ partial "svg/team.html" . }}
         </div>
+        <div class="container">
+        <div class="grid grid-cols-5 grid-rows-2">
+          <div class="col-start-2">
+            <h2 class="text-gray-100">Alexandre</h2>
+            {{ with resources.Get "images/profile_pic_3.png" }}
+              {{ with .Resize "128x png q75" }}
+              <img
+                src="{{ .Permalink }}"
+                alt="Profile Pic"
+                class="w-10 h-10 rounded-full"
+              />
+              {{ end }}
+            {{ end }}
+          </div>
+          <div class="col-start-4">
+            <h2 class="text-gray-100">Paul</h2>
+            {{ with resources.Get "images/profile_pic_1.png" }}
+              {{ with .Resize "128x png q75" }}
+              <img
+                src="{{ .Permalink }}"
+                class="h-8 w-8 rounded-full"
+                alt="Discord Profile Pic"
+              />
+              {{ end }}
+            {{ end }}
+          </div>
+          <div class="col-start-1 row-start-2">
+            <h2 class="text-gray-100">Vincent</h2>
+
+          </div>
+          <div class="col-start-3 row-start-2">
+            <h2 class="text-gray-100">Kenji</h2>
+            {{ with resources.Get "images/profile_pic_2.png" }}
+              {{ with .Resize "128x png q75" }}
+              <img
+                src="{{ .Permalink }}"
+                alt="Profile Pic"
+                class="rounded-full h-8 w-8"
+              />  
+              {{ end }}
+            {{ end }}
+          </div>
+          <div  class="col-start-5 row-start-2">
+            <h2 class="text-gray-100">Matéo</h2>
+
+          </div>
+        </div>
+      </div>
       </div>
     </div>
     <!-- CTA -->
@@ -154,7 +267,7 @@
       <h2 class="text-xl sm:text-4xl text-white font-semibold sm:max-w-2xl sm:mx-auto text-center">
         {{ i18n "alpha_title" . }}
       </h2>
-      <p class="sm:text-xl text-gray-100 sm:max-w-xl mt-6 text-center font-medium sm:mx-auto">
+      <p class="sm:text-xl text-gray-100 sm:max-w-xl mt-6 text-center font-medium sm:mx-auto font-semibold">
         {{ i18n "alpha_text" . }}
       </p>
       <a href={{ i18n "alpha_button_url" . }} target="_blank"  class="mt-4 sm:mt-10 inline-flex bg-white hover:bg-gray-200 transition-colors text-black px-4 py-3 rounded-md text-lg">
