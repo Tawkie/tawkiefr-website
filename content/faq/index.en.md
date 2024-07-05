@@ -26,45 +26,36 @@ No! Your messages will appear the same as before, and your contacts won't be abl
 
 ## Who can use Tawkie?
 
-Tawkie is an available in France to adults.
+Tawkie is an available in Europe to adults.
 
 ## Where can I create an account?
 
-Due to demand, Tawkie currently operates on a waiting list basis. To sign up, visit our website [tawkie.fr](https://www.tawkie.fr), click on "Sign Up", enter and validate your email to secure your spot in the waiting list. You'll then be able to choose your username and see your position in the queue.
-
-[tawkie]: https://www.tawkie.fr
+Due to demand, Tawkie currently operates on a waiting list basis. To sign up, open the app !
 
 ## How long is the waiting list?
 
-We're doing our best to open as many accounts as possible every day. The average wait time at the moment is around 7 days. 
-
-## What do the servers alpha.tawkie.fr and loveto.party correspond to?
-
-Tawkie relies in part on [Matrix](https://matrix.org/) technology. Matrix is installed on servers where different user accounts are distributed. The alpha.tawkie.fr server is yours, that of the clients, and loveto.party is the server we use with our teams to work and test.
+We're doing our best to open as many accounts as possible every day. The average wait time at the moment is same day.
 
 ## How do I log in to Tawkie?
 
-When you reach the end of the waiting list, we'll notify you via email, and you'll be able to log in to Tawkie! After downloading and launching the Tawkie application, you can enter your username and temporary password. Make sure to select the **alpha.tawkie.fr** server. It's important to change your password as soon as possible to limit risks.
+Withing the app, you can enter your email address. You'll then receive a 6 digit code which you'll enter into the app. If this is your first time time, you will then be able to chose your username.
 
 ## How do I log in to different social networks?
 
 Before logging in to Tawkie (and in general), it's IMPORTANT to enable two-factor authentication (2FA - available in the security settings of your social networks). This enhances the security of your account and prevents platforms from being concerned about a new connection.
 
-To log in, you can click on the "Connect an Account" tab and choose the social network you want to connect to. Once connected, your recent conversations for each network should appear.
-
-## How can I send a Direct Message (DM)?
-
-For some networks, you have the option to create a new conversation directly from Tawkie. To do this, you can use the "New Conversation" function and search for the person you want to send a new message to.
+To log in, you can click on the "Connected social networks" tab and choose the social network you want to connect to. Once connected, your recent conversations for each network should appear.
 
 ## Can I connect 2 accounts from the same social network on Tawkie?
 
-Currently, Tawkie doesn't offer this possibility, but we're currently working on its development, and we hope to integrate it into the application before summer 2024.
+Currently, Tawkie doesn't offer this possibility, but we're currently working on its development.
 
 ## Can I uninstall the applications now?
 
 Initially, we recommend keeping them installed for at least a few days to ensure everything is working smoothly.
 
 Applications depending on the phone number must be kept installed, especially:
+
 - WhatsApp
 - Signal
 - Telegram
@@ -102,7 +93,6 @@ If you encounter a problem logging in, send us a message at
 
 [element-web-alpha]: https://element.alpha.tawkie.fr/
 
-
 ## How to connect to different social networks?
 
 It is IMPORTANT to enable two-factor authentication (2FA) before trying to
@@ -127,7 +117,6 @@ Once connected, your recent conversations should appear. To reach unlisted
 people, you can usually use the `search` command in the conversation with the
 bot. Otherwise, try sending a message from the messaging app in question.
 
-
 ## How to connect to LinkedIn?
 
 Connecting to LinkedIn is more technical than for the others. For now, you have
@@ -143,8 +132,8 @@ to follow the following method:
    [Chrome][cookies-chrome].
 6. Locate the `li_at` and `JSESSIONID` cookies.
 7. Send a message to the LinkedIn Bridge bot with the following syntax : `login
-   <li_at> <jsessionid>`. For example : `login MySuperLongLiAtToken
-   ajax:mysessiontoken`. There should be no double quotes (`"`).
+<li_at> <jsessionid>`. For example : `login MySuperLongLiAtToken
+ajax:mysessiontoken`. There should be no double quotes (`"`).
 8. Contact the [helpdesk][helpdesk] if unsuccessful.
 
 [cookies-firefox]: https://firefox-source-docs.mozilla.org/devtools-user/storage_inspector/index.html
@@ -157,12 +146,12 @@ Initially, we recommend keeping them installed for at least a few days to make
 sure everything works well.
 
 Apps that depend on the phone number must be kept installed, especially:
+
 - Whatsapp
 - Signal
 - Telegram
 
 Other apps seem to be uninstallable, but we recommend keeping them installed.
-
 
 ## How to navigate my messages even more efficiently?
 
@@ -187,7 +176,6 @@ that we can respond to!
 For now, the easiest way is to send us a message on Honoroit (see previous question).
 Alternatively, send us an email at [contact@tawkie.fr](mailto:contact@tawkie.fr).
 
-
 ## I can't find the answer to my question, how can I contact you?
 
 Sorry that this FAQ couldn't help you.
@@ -198,4 +186,3 @@ Otherwise, send us an email at [contact@tawkie.fr](mailto:contact@tawkie.fr).
 
 If it's a technical question, send an email to
 [root@tawkie.fr](mailto:root@tawkie.fr).
-
