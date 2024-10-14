@@ -48,6 +48,9 @@ pour faire correspondre les noms des contacts aux numéros de téléphone, et
 partage d'images ou de vidéos depuis le rouleau de l'appareil photo avec des
 amis dans le chat.
 
+Dans le cadre de l'amélioration de nos services, l'application Tawkie intègre des programmes de la librairie open-source Matomo afin de comprendre l'utilisation de nos services (notamment utilisation des nouvelles fonctionnalités, inscription, connexions aux messageries). Ces données ne sont pas des données personnelles et Matomo est compatible avec le RGPD. Pour toute information sur Matomo, vous pouvez consulter https://matomo.org ou https://matomo.org/blog/category/gdpr/.
+ 
+
 ## Partage d'informations
 
 Nous partageons des informations vous concernant :
